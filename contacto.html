@@ -114,8 +114,6 @@
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5>Get In Touch</h5>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos</p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
                             <i class="fa fa-map-marker-alt text-white"></i>
@@ -149,37 +147,29 @@
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Nombre...</label>
+                    <h4 class="mb-3">Formulario de contacto</h4>
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzblegbe" method="post">
+                        <fieldset id="fs-frm-inputs">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="full-name"></label>
+                                    <input type="text" class="form-control" name="name" id="full-name" placeholder="Nombre completo..." required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email-address"></label>
+                                    <input type="email" class='form-control' name="_replyto" id="email-address" placeholder="Email..." required="">
+                                </div>
+                                <div class='col-md-12'>
+                                    <label for="message"></label>
+                                    <textarea class="form-control" style="height: 100px" name="message" id="message" placeholder="Mensaje..." required=""></textarea>
+                                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Email...</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Asunto...</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Mensaje...</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Enviar</button>
-                            </div>
-                        </div>
+                        </fieldset>
+                        <button class="btn btn-primary w-100 py-3 mt-5" type="submit">Enviar...</button>
                     </form>
+
+
                 </div>
             </div>
         </div>

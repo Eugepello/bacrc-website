@@ -293,6 +293,14 @@ html {
     max-height: 600px;
 }
 
+.hr-eventos {
+    border: 1px solid;
+}
+
+.text-evento {
+    font-size: larger;
+}
+
 
 /* -------------------- COUNTDOWN --------------------- */
 
