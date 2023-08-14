@@ -268,7 +268,8 @@ html {
 
 /* APORTES */
 
-.carousel-generales {
+
+/* .carousel-generales {
     margin-top: 70px;
     width: 450px;
     height: 230px;
@@ -278,9 +279,10 @@ html {
     background: #fff;
     letter-spacing: 5px;
     border-radius: 20px;
-}
+} */
 
-.carousel-generales::before {
+
+/* .carousel-generales::before {
     content: '';
     position: absolute;
     top: 0;
@@ -290,7 +292,7 @@ html {
     background: linear-gradient(90deg, #2218a992, #ff001570);
     z-index: -2;
     filter: blur(40px);
-}
+} */
 
 @media (max-width: 768px) {
     .carousel {
