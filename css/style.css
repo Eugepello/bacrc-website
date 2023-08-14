@@ -268,7 +268,7 @@ html {
 
 /* APORTES */
 
-.carousel {
+.carousel-generales {
     margin-top: 70px;
     width: 450px;
     height: 230px;
@@ -280,7 +280,7 @@ html {
     border-radius: 20px;
 }
 
-.carousel::before {
+.carousel-generales::before {
     content: '';
     position: absolute;
     top: 0;
