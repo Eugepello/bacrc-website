@@ -471,7 +471,6 @@
 
     <style>
         .carousel-generales {
-            font-size: larger;
             margin-top: 70px;
             width: 450px;
             height: 230px;
@@ -493,6 +492,31 @@
             background: linear-gradient(90deg, #2218a992, #ff001570);
             z-index: -2;
             filter: blur(40px);
+        }
+        
+        @media (max-width: 768px) {
+            .carousel {
+                max-width: 300px;
+            }
+        }
+        
+        .carousel-control-prev {
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        
+        .carousel-control-next {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        
+        .carousel-item h3 {
+            margin: 25px;
+        }
+        
+        .carousel-item p {
+            font-size: larger;
+            font-weight: bold;
         }
     </style>
 

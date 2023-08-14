@@ -294,7 +294,8 @@ html {
     filter: blur(40px);
 } */
 
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) {
     .carousel {
         max-width: 300px;
     }
@@ -317,7 +318,7 @@ html {
 .carousel-item p {
     font-size: larger;
     font-weight: bold;
-}
+} */
 
 
 /*** Destination ***/
