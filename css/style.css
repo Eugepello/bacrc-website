@@ -1,8 +1,3 @@
-/* ------------ */
-
-
-/********** Template CSS **********/
-
 :root {
     --primary: #D4091A;
     --secondary: #FE8800;
@@ -268,6 +263,58 @@ html {
 
 .service-item:hover * {
     color: var(--light) !important;
+}
+
+
+/* APORTESSSSSS */
+
+@media (max-width: 768px) {
+    .carousel {
+        max-width: 300px;
+    }
+}
+
+.carousel {
+    margin-top: 70px;
+    width: 450px;
+    height: 230px;
+    padding: 40px 0;
+    color: #14141F;
+    text-align: center;
+    background: #fff;
+    letter-spacing: 5px;
+    border-radius: 20px;
+}
+
+.carousel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, #2218a992, #ff001570);
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.carousel-control-prev {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.carousel-control-next {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.carousel-item h3 {
+    margin: 25px;
+}
+
+.carousel-item p {
+    font-size: larger;
+    font-weight: bold;
 }
 
 
