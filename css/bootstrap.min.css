@@ -229,12 +229,12 @@ sup {
 }
 
 a {
-    color: #D4091A;
+    color: rgb(40, 37, 87);
     text-decoration: none
 }
 
 a:hover {
-    color: #6b9312
+    color: #D4091A
 }
 
 a:not([href]):not([class]),
