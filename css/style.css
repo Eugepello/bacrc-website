@@ -382,6 +382,10 @@ html {
     font-size: 30px;
 }
 
+.hockeycanchadeagua {
+    margin-top: 5px;
+}
+
 
 /*** Package ***/
 
@@ -458,6 +462,12 @@ html {
 }
 
 @media (min-width: 768px) {
+    .eventos-proximos {
+        width: 90%;
+    }
+    .hockeycanchadeagua {
+        margin-top: 60px;
+    }
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
