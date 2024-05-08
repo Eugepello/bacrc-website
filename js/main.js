@@ -124,16 +124,3 @@
 // });
 
 
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbw-QWEGFoWp7TwUWdOc0F2RppcihcakEM-E7l-4V3QJVDzKIopajbJgPisW5rb7Gpoj/exec'
-const form = document.forms['hockeyForm']
-
-form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, {
-        'mode': 'no-cors'
-    },
-        { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Exitoso!', response))
-        .catch(error => console.error('Error!', error.message))
-})
