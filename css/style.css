@@ -515,6 +515,13 @@ ul li .descr::before {
     color: var(--color);
 }
 
+@media (min-width: 992px) {
+    .total-parcial {
+        max-width: 500px;
+        margin-left: 400px;
+    }
+}
+
 
 /*** Destination ***/
 
